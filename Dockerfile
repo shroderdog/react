@@ -1,4 +1,4 @@
-FROM node:alpine as builder
+FROM node:alpine
 WORKDIR '/srv'
 COPY package.json .
 RUN npm install
